@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  /* 1.6*10 = 16px */
+  font-size: 1.6rem;
+  color: black;
+}
+
+h1,
+h2,
+p {
+  margin: 1.6rem 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  font-size: 4rem;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: azure;
+}
+
+.game-icon {
+  pad: 8px;
+}
+
+.game-icon img {
+  width: 200px;
+  height: 100%;
+}
+
+.testing {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 5rem;
+  align-items: center;
+  margin: auto;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score {
+  display: flex;
+  gap: 30px;
+}
+
+.weapon img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+}
