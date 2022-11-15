@@ -96,14 +96,14 @@ rockEle.addEventListener('click', function () {
 });
 
 paperEle.addEventListener('click', function () {
-  const playerChoice = 'Rock';
-  playerEle.src = 'images/rock.png';
+  const playerChoice = 'Paper';
+  playerEle.src = 'images/paper.jpg';
   game(playerChoice);
 });
 
 scissorsEle.addEventListener('click', function () {
-  const playerChoice = 'Rock';
-  playerEle.src = 'images/rock.png';
+  const playerChoice = 'Scissors';
+  playerEle.src = 'images/scc.png';
   game(playerChoice);
 });
 
